@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html: table</title>
+</head>
+<body>
+    <table border="2" cellpadding="10" cellspacing="10">
+        <caption>Fruits Price details</caption>
+        <thead style="background-color: rgb(0, 4, 255);">
+            <tr>
+            <th>S. No.</th>
+            <th>Fruits Name</th>
+            <th>Prices</th>
+         </tr>
+
+
+        </thead>
+       <tbody style="color: rgb(165, 163, 42);">
+        <tr>
+            <td>1.</td>
+            <td>Orange</td>
+            <td>70-/kg</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Apples</td>
+            <td>60-/kg</td>
+            
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Bananas</td>
+            <td>50-/pieces</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Grapes</td>
+            <td>120-/kg</td>
+        </tr>
+        </tbody>
+        <tfoot style="background: chartreuse;">
+            <tr>
+                <td>Total Prices</td>
+                <td colspan="2">300-Rs.</td>
+            </tr>
+        </tfoot>
+        <tr>
+            <td>5.</td>
+            <td>Mangoes</td>
+            <td>80-/Kg.</td>
+        </tr>
+    </table>
+
+    <table border="2" cellspacing="0" cellpadding="10">
+        <caption>Expanding to rows and column</caption>
+        <!-- <colgroup>
+            <col span="1" style="background-color: violet;">
+            <col span="2" style="background-color: aqua;">
+        </colgroup>
+        -->
+        <tr>
+            <td style="background-color: red;color: white;">col1</td>
+            <td>col2</td>
+            <td>col3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Row1cell1</td>
+            <td>row1/cell2</td>
+            <td>row1/cell3</td>
+        </tr>
+        <tr>
+            <td>Row2/cell2</td>
+            <td>Row2/cell3</td>
+        </tr>
+        <tr>
+            <td colspan="3"><center>Row3 cell1</center></td>
+        </tr>
+    </table>
+    <table>
+
+    </table>
+</body>
+</html>
